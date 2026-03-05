@@ -142,7 +142,7 @@ Start the FastAPI web server:
 
 ```bash
 # From project root
-uvicorn api.app:app --host 0.0.0.0 --port 10000
+uvicorn api.app:app --host 0.0.0.0 --port 3000
 ```
 
 **API Endpoints:**
@@ -156,7 +156,7 @@ uvicorn api.app:app --host 0.0.0.0 --port 10000
 ### Option 3: Web Interface
 
 1. Start the server as above
-2. Open http://localhost:10000 in your browser
+2. Open http://localhost:3000 in your browser
 3. Upload a document or select from samples
 4. View extracted metadata instantly
 
